@@ -44,7 +44,7 @@
   <li>Sinta-se à vontade para <strong>clonar, estudar e contribuir!</strong></li>
 </ol>
 
-<pre><code>git clone https://github.com/JonhsonDev/IntensivaoPython.git</code></pre>
+<pre><code>git clone https://github.com/JonhsonDev/MaratonaPython_BosonTreinamentos.git</code></pre>
 
 <hr>
 
