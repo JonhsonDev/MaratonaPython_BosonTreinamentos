@@ -67,7 +67,7 @@ idade = int(idade)  # agora é um inteiro
 </code></pre>
 
 <p>
-<em>OBS:</em> Vamos ver sobre casting melhor em outro momento ⚡ :
+<em>OBS:</em> Vamos ver sobre casting melhor em outro momento ⚡ 
 </p>
 
 <hr>
@@ -103,7 +103,7 @@ Em Python, alguns objetos são <strong>imutáveis</strong> (não podem ser alter
 </p>
 
 <p>
-<em>OBS:</em> Vamos entender melhor as listas em outro momento, não preste atenção nisso agora, só tente entender a lógica por trás de maneira superficial ⚡ :
+<em>OBS:</em> Vamos entender melhor as listas em outro momento, não preste atenção nisso agora, só tente entender a lógica por trás de maneira superficial ⚡ 
 </p>
 
 <table align="center">
@@ -218,7 +218,6 @@ print(f"É estudante? {estudante}")
 <h3>📌 Autor: <strong>José Jonhson Barros Tavares</strong></h3>
 
 <p align="center">
-📅 <em>Status:</em> Em constante aprendizado <br>
 🧭 <em>Assunto:</em> Fundamentos do Python <br>
 ⭐ <em>Se este conteúdo te ajudou, deixa uma estrela no repositório!</em>
 </p>
