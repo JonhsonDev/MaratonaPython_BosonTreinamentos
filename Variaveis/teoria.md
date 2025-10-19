@@ -28,7 +28,7 @@ nome = "Jonhson" # 'nome' aponta para o texto "Jonhson"
 <ul>
   <li>🔤 Deve começar com letra ou underscore (<code>_</code>).</li>
   <li>🚫 Não pode começar com número nem conter espaços.</li>
-  <li>🔠 É sensível a maiúsculas e minúsculas (<code>idade</code> ≠ <code>Idade</code>).</li>
+  <li>🔠 É sensível a maiúsculas e minúsculas (<code>idade</code> é diferente de <code>Idade</code>).</li>
   <li>❌ Não pode usar palavras reservadas do Python (<code>if</code>, <code>while</code>, <code>class</code>, etc).</li>
   <li>✅ Use nomes descritivos em <strong>snake_case</strong>: <code>idade_usuario</code>, <code>total_vendas</code>.</li>
 </ul>
@@ -59,6 +59,9 @@ print(type(x))  # <class 'str'>
 
 <p>
 Você também pode converter tipos manualmente (chamamos isso de <em>casting</em>):
+</p>
+<p>
+<em>OBS:</em> Vamos ver sobre casting melhor em outro momento ⚡ :
 </p>
 
 <pre><code class="language-python">idade = "21"
@@ -95,6 +98,10 @@ n += 2   # n = n + 2 → resultado: 7
 
 <p>
 Em Python, alguns objetos são <strong>imutáveis</strong> (não podem ser alterados após criados), e outros são <strong>mutáveis</strong> (podem ser modificados).
+</p>
+
+<p>
+<em>OBS:</em> Vamos entender melhor as listas em outro momento, não preste atenção nisso agora, só tente entender a lógica por trás de maneira superficial ⚡ :
 </p>
 
 <table align="center">
