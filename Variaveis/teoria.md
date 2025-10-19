@@ -60,13 +60,15 @@ print(type(x))  # <class 'str'>
 <p>
 Você também pode converter tipos manualmente (chamamos isso de <em>casting</em>):
 </p>
-<p>
-<em>OBS:</em> Vamos ver sobre casting melhor em outro momento ⚡ :
-</p>
+
 
 <pre><code class="language-python">idade = "21"
 idade = int(idade)  # agora é um inteiro
 </code></pre>
+
+<p>
+<em>OBS:</em> Vamos ver sobre casting melhor em outro momento ⚡ :
+</p>
 
 <hr>
 
