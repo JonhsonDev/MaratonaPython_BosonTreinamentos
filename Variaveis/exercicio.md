@@ -100,7 +100,6 @@ Depois desse exercício, você deve entender que:
 <h3 align="center">🧑‍💻 Continue praticando — cada variável é um pequeno passo rumo à lógica de programação!</h3>
 
 <p align="center">
-📚 <em>Arquivo:</em> <code>exercicio_variaveis_iniciante.py</code> <br>
 🧭 <em>Tema:</em> Variáveis em Python <br>
 ⭐ <em>Curtiu o exercício? Deixe uma estrela e compartilhe com outro iniciante!</em>
 </p>

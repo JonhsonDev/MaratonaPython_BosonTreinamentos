@@ -19,4 +19,24 @@ print(nome)
 # 4 - em caso de nome composto, usar (-), (_), ou 'CamelCase' para separar o nome da variável
 # 5 - o Python é 'case sensitive', significa que ele faz a diferenciação de letras maiúsculas e minúsculas
 
+# Declarando outras variáveis 
+media = 0
+n1 = n2 = n3 = n4 = 0.0
+nome, idade = 'Makoto', 51
 
+status = True
+
+# A função type() é usada para verificar o tipo de dado de uma variável
+print(type(nome))
+print(type(media))
+print(type(n1))
+print(type(status))
+# Em python temos o tipo de dado "número complexo", muito útil para áreas da engenharia
+print(type(1+2j))
+
+# Função isinstance() retorna True se a variável ou dado foir do determinado tipo especificado, ou False se não for
+a = 10
+b = 'Carro'
+print(isinstance(a, int))
+print(isinstance(b, int))
+print(isinstance(b, str))
