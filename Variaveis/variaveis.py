@@ -40,3 +40,9 @@ b = 'Carro'
 print(isinstance(a, int))
 print(isinstance(b, int))
 print(isinstance(b, str))
+
+# reatribuindo o valor de uma variável
+a = 40 
+c = 3
+r = a * c
+print(r)
