@@ -94,4 +94,94 @@ Você pode usar operadores aritméticos junto com o operador de atribuição (<c
 
 n += 2   # n = n + 2 → 12
 n -= 3   # n = n - 3 → 9
-n *=*
+n *= 2   # n = n * 2 → 18
+n /= 3   # n = n / 3 → 6.0
+n **= 2  # n = n ** 2 → 36.0
+</code></pre>
+
+<p>
+💡 Isso é chamado de <strong>atribuição aumentada</strong> — muito útil para códigos mais limpos e diretos.
+</p>
+
+<hr>
+
+<h2>🧠 Operações com Tipos Diferentes</h2>
+
+<p>
+Python permite combinar <code>int</code> e <code>float</code> nas operações.  
+O resultado será sempre um <strong>float</strong> quando houver mistura de tipos numéricos.
+</p>
+
+<pre><code class="language-python">a = 10      # int
+b = 2.5     # float
+
+resultado = a + b
+print(resultado)       # 12.5
+print(type(resultado)) # <class 'float'>
+</code></pre>
+
+<hr>
+
+<h2>🚫 Erros Comuns</h2>
+
+<ul>
+  <li>❌ Divisão por zero:
+    <pre><code class="language-python">print(5 / 0)  # ZeroDivisionError</code></pre>
+  </li>
+  <li>❌ Operar números com strings sem conversão:
+    <pre><code class="language-python">print("5" + 2)  # TypeError</code></pre>
+  </li>
+</ul>
+
+<p>
+✔️ Solução: use <strong>casting</strong> para converter tipos quando necessário:
+</p>
+
+<pre><code class="language-python">print(int("5") + 2)  # 7
+</code></pre>
+
+<hr>
+
+<h2>📋 Resumo Rápido</h2>
+
+<ul>
+  <li>➕ <strong>Soma</strong>: <code>+</code></li>
+  <li>➖ <strong>Subtração</strong>: <code>-</code></li>
+  <li>✖️ <strong>Multiplicação</strong>: <code>*</code></li>
+  <li>➗ <strong>Divisão</strong>: <code>/</code> e <code>//</code></li>
+  <li>🧩 <strong>Módulo</strong>: <code>%</code></li>
+  <li>💥 <strong>Exponenciação</strong>: <code>**</code></li>
+  <li>⚡ <strong>Precedência</strong>: Parênteses → Expoentes → * / → + -</li>
+</ul>
+
+<hr>
+
+<h2>🚀 Exemplo Prático</h2>
+
+<pre><code class="language-python"># Calculadora simples com operadores aritméticos
+
+a = 15
+b = 4
+
+print(f"Soma: {a + b}")
+print(f"Subtração: {a - b}")
+print(f"Multiplicação: {a * b}")
+print(f"Divisão: {a / b}")
+print(f"Divisão inteira: {a // b}")
+print(f"Resto da divisão: {a % b}")
+print(f"Exponenciação: {a ** b}")
+</code></pre>
+
+<hr>
+
+<h3>📌 Autor: <strong>José Jonhson Barros Tavares</strong></h3>
+
+<p align="center">
+🧭 <em>Assunto:</em> Fundamentos do Python <br>
+⭐ <em>Se este conteúdo te ajudou, deixa uma estrela no repositório!</em>
+</p>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Aprendizado-Contínuo-brightgreen?style=for-the-badge" alt="Learning">
+</div>
